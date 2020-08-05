@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+.form-wrapper {
+    margin: 20px;
+
+    input {
+        border-radius: 10px;
+        width: 350px;
+        height: 40px;
+        margin: 2rem;
+    }
+
+    ;
+
+    ::placeholder {
+        font-size: 17px;
+        text-align: center;
+        font-family: 'IBM Plex Mono', monospace;
+    }
+
+    ;
+
+    .buttons-wrapper {
+        .button-add {
+            border: 3px solid #33332d;
+            box-shadow: -3px 5px #33332d;
+            background-color: whitesmoke;
+            margin: 1rem;
+            padding: .6rem 1rem;
+        }
+
+        .button-del {
+            border: 3px solid #33332d;
+            box-shadow: -3px 5px #33332d;
+            background-color: whitesmoke;
+            margin: 1rem;
+            padding: .6rem 1rem;
+        }
+    }
+}
